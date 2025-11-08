@@ -1,0 +1,12 @@
+.vgl-banner  {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    text-align: start;
+    padding: 32px;
+    border-bottom: solid 3px black;
+}
+
+.vgl-logo{
+    height: 5rem;
+}

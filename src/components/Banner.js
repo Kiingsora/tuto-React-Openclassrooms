@@ -1,5 +1,13 @@
+import logo from "../assets/logo.png";
+
 function Banner() {
-  return <h1> La maison de la jungle</h1>;
+  const title = "Video game Land";
+  return (
+    <div  className="vgl-banner">
+      <img src={logo} alt="logo du site" className="vgl-logo" />
+      <h1> {title} </h1>
+    </div>
+  );
 }
 
 export default Banner;
